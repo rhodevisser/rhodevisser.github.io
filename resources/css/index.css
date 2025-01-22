@@ -1,9 +1,15 @@
+body {
+    background-color: rgb(19, 17, 17);
+    color: antiquewhite;
+}
+
 .nav_bar ul {
     list-style-type: none;
     background-color: rgb(208, 111, 249);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    align-content: center;
 }
 
 .nav_bar a{
