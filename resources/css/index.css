@@ -10,7 +10,7 @@ p {
 .nav_bar ul {
     list-style-type: none;
     color: rgb(208, 111, 249);
-    padding: 0px;
+    padding: 30px;
     margin: 0px;
     overflow: hidden;
     text-align: center;
