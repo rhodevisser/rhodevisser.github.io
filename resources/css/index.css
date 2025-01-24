@@ -8,6 +8,7 @@ p {
     color: rgb(183, 137, 239);
     text-align: center;
 }
+ /*navigation bar*/
 
 .nav_bar ul {
     list-style-type: none;
@@ -37,20 +38,7 @@ p {
     display: inline-block;
 }
 
-#container1 {
-    display: flex;
-    justify-content: center;  
-}
-
-.container_portrait {
-    height: 200px;
-    width: 300px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    border: solid rgb(183, 137, 239) 2px;
-}
+/*name and role*/
 
 #main_name {
     font-family: "Pacifico", serif;
@@ -71,6 +59,25 @@ p {
     margin-bottom: 30px;
 }
 
+/*portrait and intro*/
+.portrait_intro {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.container_portrait {
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border: solid rgb(183, 137, 239) 2px;
+    
+}
+
 .introduction {
     display: flex;
     justify-content: center; 
@@ -79,7 +86,7 @@ p {
 .introduction_text {
     padding: 10px;
     text-align: center;
-    width: 60%;
+    width: 90%;
 }
 
 .end {
