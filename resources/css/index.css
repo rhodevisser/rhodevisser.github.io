@@ -18,7 +18,7 @@ p {
 }
 
 .nav_bar a{
-    color: rgb(232, 7, 228);
+    color: rgb(17, 61, 240);
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -28,7 +28,7 @@ p {
 }
 
 .nav_bar a:hover{
-    color: rgb(24, 173, 61);
+    color: rgb(190, 17, 240);
 
 }
 
@@ -56,12 +56,12 @@ p {
     font-style: normal;
     font-size: 70px;
     text-align: center;
-    color:rgb(133, 77, 247);
+    color: rgb(240, 17, 197);
 }
 
 #main_role {
     text-align: center;
-    color:rgb(133, 77, 247);
+    color:rgb(190, 17, 240);
 }
 
 .introduction {
