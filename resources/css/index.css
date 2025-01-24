@@ -64,7 +64,14 @@ p {
 }
 
 .introduction {
-    border: solid black 2px;
+    display: flex;
+    justify-content: center; 
+}
+
+.introduction_text {
+    padding: 10px;
+    border: solid rgb(238, 142, 217, 0.25) 2px;
     text-align: center;
+    width: 60%;
 }
   
