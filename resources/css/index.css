@@ -74,7 +74,7 @@ p {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    border: solid rgb(183, 137, 239) 2px;
+    border: solid rgb(17, 61, 240); 2px;
     
 }
 
