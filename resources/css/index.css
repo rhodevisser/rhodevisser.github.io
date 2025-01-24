@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(19, 17, 17);
-    color: antiquewhite;  
+    background-color: rgb(11, 2, 16);
+    
 }
 
 p {
@@ -85,7 +85,6 @@ p {
 
 .introduction_text {
     padding: 10px;
-    text-align: center;
     width: 90%;
 }
 
