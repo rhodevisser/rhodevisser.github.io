@@ -30,3 +30,14 @@ body {
 .nav_bar li{
     display: inline-block;
 }
+
+#main_name {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+    color:rgb(133, 77, 247);
+    
+  }
+  
