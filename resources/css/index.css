@@ -3,6 +3,9 @@ body {
     color: antiquewhite;  
 }
 
+p {
+    font-size: 24px;
+}
 
 .nav_bar ul {
     list-style-type: none;
