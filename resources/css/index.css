@@ -3,6 +3,7 @@ body {
     color: antiquewhite;  
 }
 
+
 .nav_bar ul {
     list-style-type: none;
     color: rgb(208, 111, 249);
@@ -57,5 +58,10 @@ body {
 #main_role {
     text-align: center;
     color:rgb(133, 77, 247);
+}
+
+.introduction {
+    border: solid black 2px;
+    text-align: center;
 }
   
