@@ -1,6 +1,6 @@
 body {
     background-color: rgb(19, 17, 17);
-    color: antiquewhite;
+    color: antiquewhite;  
 }
 
 .nav_bar ul {
@@ -29,6 +29,20 @@ body {
 
 .nav_bar li{
     display: inline-block;
+}
+
+#container1 {
+    display: flex;
+    justify-content: center;  
+}
+
+.container_portrait {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 #main_name {
