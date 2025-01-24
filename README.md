@@ -16,4 +16,8 @@ Year 2025
  - 7 mrt - 14 mrt: Finishing Touch
  - 19 mrt: Launch website  
 
+ Color Wheel:
+ - for p: #B789EF
+ - other: #2C11F0, #BE11F0, #7511F0, #113DF0, #F011C5
+
 
