@@ -1,6 +1,5 @@
 body {
-    background-color: rgb(6, 0, 14);
-    
+    background-color: rgb(6, 0, 14);   
 }
 
 p {
@@ -74,8 +73,7 @@ p {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    border: solid rgb(17, 61, 240); 2px;
-    
+    border: solid rgb(17, 61, 240);    
 }
 
 .introduction {
