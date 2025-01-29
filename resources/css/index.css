@@ -1,6 +1,7 @@
 * {
     background-color: rgb(6, 0, 14);   
     box-sizing: border-box; 
+    border: 2px solid red;
 }
 
 p {
@@ -62,8 +63,7 @@ p {
 /*portrait and intro*/
 .portrait_intro {
     width: 80%;
-    display: flex;
-    align-items: center;
+    display: block;
     margin-left: 10%;
 }
 
@@ -77,14 +77,9 @@ p {
     border: solid rgb(17, 61, 240);    
 }
 
-.introduction {
-    display: flex;
-    justify-content: center; 
-}
 
 .introduction_text {
-    padding: 10px;
-    width: 90%;
+    
 }
 
 .end {
