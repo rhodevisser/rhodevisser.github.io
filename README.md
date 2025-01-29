@@ -10,7 +10,7 @@ Year 2025
 - 17 jan - 27 jan: CSS toevoegen en link aanmaken + lijst van wat er inmoet (analyse). 
 - 27 jan - 7 feb: lijst doorvoeren 
 - 7 feb - 14 feb: implementatiefase
- Jasper (web-design) en Pauline (overal structuur, code, commits) om feedback vragen.
+ Jasper (web-design regels), Pauline (overal structuur, code, commits) en Braz (overal vibes en gebruik) om feedback vragen.
  - 14 feb - 28 feb: Testen 
  - 27 feb - 7 Mrt: Evalutie en beoordeling
  - 7 mrt - 14 mrt: Finishing Touch
