@@ -63,7 +63,9 @@ p {
 .portrait_intro {
     display: flex;
     justify-content: space-around;
-    margin: 20px
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .container_portrait {
