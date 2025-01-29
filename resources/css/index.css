@@ -1,7 +1,6 @@
 * {
     background-color: rgb(6, 0, 14);   
     box-sizing: border-box; 
-    border: 2px solid red;
 }
 
 p {
@@ -62,9 +61,9 @@ p {
 
 /*portrait and intro*/
 .portrait_intro {
-    width: 80%;
-    display: block;
-    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px
 }
 
 .container_portrait {
@@ -79,7 +78,7 @@ p {
 
 
 .introduction_text {
-    
+    width: 700px;
 }
 
 .end {
