@@ -5,7 +5,7 @@
 
 p {
     font-size: 20px;
-    color: rgb(183, 137, 239);
+    color: #b789ef;
     text-align: center;
 }
 
@@ -13,7 +13,6 @@ p {
 
 .nav_bar ul {
     list-style-type: none;
-    color: rgb(208, 111, 249);
     padding: 30px;
     margin: 0px;
     overflow: hidden;
@@ -31,7 +30,7 @@ p {
 }
 
 .nav_bar a:hover{
-    color: rgb(190, 17, 240);
+    color: #be11f0;
 
 }
 
@@ -47,7 +46,7 @@ p {
     font-style: normal;
     font-size: 70px;
     text-align: center;
-    color: rgb(240, 17, 197);
+    color: #f011c5;
     padding: 0px;
     margin-top: 0px;
     margin-bottom: -10px;

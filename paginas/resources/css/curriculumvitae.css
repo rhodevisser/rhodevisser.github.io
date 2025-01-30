@@ -4,18 +4,15 @@
 
 p {
     font-size: 20px;
-    color: rgb(183, 137, 239);
+    color: #b789ef;
 }
 
 h2 {
-    color:rgb(190, 17, 240);
+    color: #f011c5;
 }
-
-
 
 .cv_nav ul {
     list-style-type: none;
-    color: rgb(208, 111, 249);
     padding: 30px;
     margin: 0px;
     overflow: hidden;
@@ -33,7 +30,7 @@ h2 {
 }
 
 .cv_nav a:hover{
-    color: rgb(190, 17, 240);
+    color: #f011c5;
 
 }
 
