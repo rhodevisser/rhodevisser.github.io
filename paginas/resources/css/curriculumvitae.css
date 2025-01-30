@@ -8,6 +8,34 @@ p {
     text-align: center;
 }
 
+.cv_nav ul {
+    list-style-type: none;
+    color: rgb(208, 111, 249);
+    padding: 30px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cv_nav a{
+    color: rgb(17, 61, 240);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cv_nav a:hover{
+    color: rgb(190, 17, 240);
+
+}
+
+.cv_nav li{
+    display: inline-block;
+}
+
 main li {
     font-size: 20px;
     color: rgb(183, 137, 239);
