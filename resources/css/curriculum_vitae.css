@@ -8,8 +8,10 @@ p {
 }
 
 h1 {
-    color: rgb(190, 17, 240);
+    font-size: 48px;
+    color:  #F011C5;
     text-align: center;
+    text-shadow: 0 0 6px #2C11F0, 0 0 5px #B789EF;
 }
 
 h2 {
