@@ -33,6 +33,10 @@ p {
 
 }
 
+.nav_bar a.active {
+    color: #B789EF;
+}
+
 .nav_bar li{
     display: inline-block;
 }

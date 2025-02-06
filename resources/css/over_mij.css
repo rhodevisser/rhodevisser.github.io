@@ -30,7 +30,10 @@ p {
 
 .nav_bar a:hover{
     color: #be11f0;
+}
 
+.nav_bar a.active{
+    color:  #B789EF;
 }
 
 .nav_bar li{
