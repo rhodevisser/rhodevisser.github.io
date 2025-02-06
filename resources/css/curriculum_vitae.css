@@ -7,6 +7,11 @@ p {
     color: #b789ef;
 }
 
+h1 {
+    color: rgb(190, 17, 240);
+    text-align: center;
+}
+
 h2 {
     color: #f011c5;
 }
