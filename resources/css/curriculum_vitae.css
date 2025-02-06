@@ -8,10 +8,15 @@ p {
 }
 
 h1 {
-    font-size: 48px;
-    color:  #F011C5;
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
     text-align: center;
-    text-shadow: 0 0 6px #2C11F0, 0 0 5px #B789EF;
+    color: #f011c5;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: -10px;
 }
 
 h2 {
