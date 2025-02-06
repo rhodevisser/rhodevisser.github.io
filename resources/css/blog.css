@@ -7,3 +7,32 @@ p {
     color: rgb(183, 137, 239);
     text-align: center;
 }
+
+/*navigation bar*/
+
+.nav_bar ul {
+    list-style-type: none;
+    padding: 30px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav_bar a{
+    color: rgb(17, 61, 240);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav_bar a:hover{
+    color: #be11f0;
+
+}
+
+.nav_bar li{
+    display: inline-block;
+}
