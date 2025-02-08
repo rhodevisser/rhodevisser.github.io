@@ -66,6 +66,9 @@ p {
     color:rgb(190, 17, 240);
     margin-top: -10px;
     margin-bottom: 30px;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 /*portrait and intro flex*/
