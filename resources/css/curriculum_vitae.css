@@ -5,6 +5,9 @@
 p {
     font-size: 20px;
     color: #b789ef;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1 {
