@@ -23,7 +23,10 @@ h1 {
 }
 
 h2 {
-    color: #f011c5;
+    color:rgb(17, 240, 50); 
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 main li {
