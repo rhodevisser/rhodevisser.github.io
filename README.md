@@ -16,7 +16,9 @@ Year 2025
  - 19 mrt: Launch website  
 
  Color Wheel:
+
+ Sat. 8 Feb: blue colors are swapped to green
  - for p: #B789EF
- - other: #2C11F0, #BE11F0, #7511F0, #113DF0, #F011C5
+ - others:rgb(17, 240, 50) ,#BE11F0, #7511F0, #F011C5
 
 
