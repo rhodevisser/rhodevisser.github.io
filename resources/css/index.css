@@ -77,7 +77,7 @@ p {
     display: flex;
     justify-content: center;
     margin: 50px auto 50px auto;
-    border: solid 2px red;
+    width: 100%;
 }
 
 .container_portrait {
@@ -93,17 +93,40 @@ p {
 
 
 .introduction_text {
-    width: 700px;
+    width: 43.75em;
     margin: 40px;
 }
 
-/* responsive web > media query to add a breakpoint at 800px: */
-@media screen and (max-width: 800px) {
+/* responsive web > media query to add a breakpoints: */
+@media screen and (max-width: 1024px) {
+    .container_portrait, .introduction_text{
+        margin: 0 auto;
+    }
     .portrait_intro {
         flex-grow: 1;
+        
     }        
     .introduction_text {
         flex-shrink: 2; 
+    }  
+}
+
+@media screen and (max-width: 768px) {
+
+    .portrait_intro {
+        flex-direction: column;
+    }
+    .introduction_text {
+        width: 95%;
     }
     
+}
+@media screen and (max-width: 375px) {
+    .portrait_intro {
+        flex-direction: column;
+
+    }
+    .introduction_text, .container_portrait {
+        width:95%;
+    }      
 }
