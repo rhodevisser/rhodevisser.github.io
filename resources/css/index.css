@@ -88,12 +88,22 @@ p {
     overflow: hidden;
     display: flex;
     justify-content: center;
+<<<<<<< Updated upstream
     border: solid rgb(17, 240, 50);    
+=======
+<<<<<<< HEAD
+    border: solid rgb(17, 61, 240);    
+    
+=======
+    border: solid rgb(17, 240, 50);    
+>>>>>>> 08d349d05fa95280764a4daef33a71d3afe4f08b
+>>>>>>> Stashed changes
 }
 
 
 .introduction_text {
     width: 700px;
+    flex-shrink: 2;
 }
 
 .end {
