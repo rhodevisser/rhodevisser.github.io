@@ -79,6 +79,7 @@ p {
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 150px;
+    border: solid 2px red;
 }
 
 .container_portrait {
@@ -94,10 +95,15 @@ p {
 
 .introduction_text {
     width: 700px;
-    flex-shrink: 2;
 }
 
-.end {
+/* responsive web > media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+    .portrait_intro {
+        flex-grow: 1;
+    }        
+    .introduction_text {
+        flex-shrink: 2; 
+    }
 
 }
-  
