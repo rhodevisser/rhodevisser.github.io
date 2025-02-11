@@ -143,6 +143,12 @@ p {
     #main_name {
         font-size: 26px;
     }
+
+    #main_role {
+        font-weight: 400;
+        font-size: 18px;
+
+    }
     .portrait_intro {
         flex-direction: column;
 
