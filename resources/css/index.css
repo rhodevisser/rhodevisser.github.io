@@ -119,6 +119,8 @@ p {
     .introduction_text {
         width: 95%;
     }
+
+
     
 }
 @media screen and (max-width: 375px) {
@@ -129,4 +131,8 @@ p {
     .introduction_text, .container_portrait {
         width:95%;
     }      
+
+    p {
+        font-size: 16px;
+    }
 }
