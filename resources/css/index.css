@@ -120,6 +120,10 @@ p {
 
 @media screen and (max-width: 768px) {
 
+    p {
+        font-size: 18px;
+    }
+
     .portrait_intro {
         flex-direction: column;
     }
@@ -132,6 +136,10 @@ p {
 }
 @media screen and (max-width: 375px) {
 
+    p {
+        font-size: 16px;
+    }
+
     #main_name {
         font-size: 26px;
     }
@@ -143,7 +151,5 @@ p {
         width:95%;
     }      
 
-    p {
-        font-size: 16px;
-    }
+
 }
