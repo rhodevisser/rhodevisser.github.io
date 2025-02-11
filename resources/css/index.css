@@ -115,6 +115,11 @@ p {
     #main_name {
         font-size: 33px;
     }
+
+    #main_role {
+        font-weight: 500;
+        font-size: 20px;
+    }
     
 }
 
