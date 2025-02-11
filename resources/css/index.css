@@ -107,7 +107,7 @@ p {
         
     }        
     .introduction_text {
-        flex-shrink: 2; 
+        width: 480px;
     }  
 }
 
