@@ -29,7 +29,7 @@ p {
     display: block;
     font-size: 18px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600;
     font-family: "Raleway", serif;
     font-style: normal;
 }
@@ -53,7 +53,7 @@ p {
     font-family: "Pacifico", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
     color: #f011c5;
     padding: 0px;
@@ -67,7 +67,7 @@ p {
     margin-top: -10px;
     margin-bottom: 30px;
     font-family: "Lato", serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
 }
 
@@ -107,11 +107,32 @@ p {
         
     }        
     .introduction_text {
-        flex-shrink: 2; 
+        width: 480px;
     }  
 }
 
+@media screen and (max-width: 800px) {
+    #main_name {
+        font-size: 33px;
+    }
+
+    #main_role {
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+}
+
 @media screen and (max-width: 768px) {
+
+    p {
+        font-size: 18px;
+    }
+
+    .nav_bar a {
+        font-size: 16px;
+        font-weight: normal;
+    }
 
     .portrait_intro {
         flex-direction: column;
@@ -119,9 +140,30 @@ p {
     .introduction_text {
         width: 95%;
     }
+
+
     
 }
 @media screen and (max-width: 375px) {
+
+    p {
+        font-size: 16px;
+    }
+
+    .nav_bar a {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    #main_name {
+        font-size: 26px;
+    }
+
+    #main_role {
+        font-weight: 400;
+        font-size: 18px;
+
+    }
     .portrait_intro {
         flex-direction: column;
 
@@ -129,4 +171,6 @@ p {
     .introduction_text, .container_portrait {
         width:95%;
     }      
+
+
 }
