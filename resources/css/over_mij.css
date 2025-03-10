@@ -56,3 +56,42 @@ h1 {
 .nav_bar li{
     display: inline-block;
 }
+
+@media screen and (max-width: 1024px) {
+
+    }  
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 33px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    p {
+        font-size: 18px;
+    }
+
+    .nav_bar a {
+        font-size: 16px;
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    p {
+        font-size: 16px;
+    }
+
+    .nav_bar a {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+   h1 {
+        font-size: 26px;
+    }    
+}
+       
