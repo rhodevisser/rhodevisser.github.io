@@ -9,6 +9,7 @@ p {
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
+    margin: 40px 330px 20px 330px;
 }
 
 h1 {
@@ -57,6 +58,12 @@ h1 {
     display: inline-block;
 }
 
+@media screen and (max-width: 1185px) {
+    p {
+    margin: 40px 150px 20px 150px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
 
     }  
@@ -65,12 +72,17 @@ h1 {
     h1 {
         font-size: 33px;
     }
+
+    p {
+        margin: 20px 50px 20px 50px;
+    }
 }
 
 @media screen and (max-width: 768px) {
 
     p {
         font-size: 18px;
+        margin: 20px 20px 20px 20px;
     }
 
     .nav_bar a {
