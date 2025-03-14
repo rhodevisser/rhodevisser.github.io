@@ -76,13 +76,12 @@ p {
 .portrait_intro {
     display: flex;
     justify-content: center;
-    margin: 50px auto 50px auto;
     width: 100%;
 }
 
 .container_portrait {
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 200px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
@@ -154,6 +153,7 @@ p {
 
     
 }
+
 @media screen and (max-width: 425px) {
 
     p {
@@ -178,9 +178,8 @@ p {
         flex-direction: column;
 
     }
-    .introduction_text, .container_portrait {
+
+    .introduction_text {
         width:95%;
     }      
-
-
 }
