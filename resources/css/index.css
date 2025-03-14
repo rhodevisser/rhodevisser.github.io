@@ -97,6 +97,16 @@ p {
     margin: 40px;
 }
 
+/* button styling */
+.button_box {
+    display: flex;
+    justify-content: center;
+}
+.fa-brands {
+    color: rgb(17, 240, 50);
+    margin: 10px;
+}
+
 /* responsive web > media query to add a breakpoints: */
 @media screen and (max-width: 1024px) {
     .container_portrait, .introduction_text{
