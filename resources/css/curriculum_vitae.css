@@ -8,6 +8,7 @@ p {
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
+    
 }
 
 h1 {
@@ -27,11 +28,13 @@ h2 {
     font-family: "Lato", serif;
     font-weight: 700;
     font-style: normal;
+    margin-left: 50px;
 }
 
 main li {
     font-size: 20px;
     color: rgb(183, 137, 239);
+    margin: 0px 50px 0px 50px;
 }
 
 /*navigation bar*/
