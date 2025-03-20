@@ -81,7 +81,7 @@ p {
 
 .container_portrait {
     height: 250px;
-    width: 200px;
+    width: 150px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
