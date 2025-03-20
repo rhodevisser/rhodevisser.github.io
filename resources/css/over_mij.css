@@ -70,7 +70,7 @@ h1 {
 
 @media screen and (max-width: 800px) {
     h1 {
-        font-size: 33px;
+        font-size: 40px;
     }
 
     p {
@@ -101,10 +101,6 @@ h1 {
     .nav_bar a {
         font-size: 12px;
         font-weight: normal;
-    }
-
-   h1 {
-        font-size: 26px;
-    }  
+    } 
 }
        
