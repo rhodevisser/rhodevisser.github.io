@@ -2,41 +2,6 @@
     background-color: #06000e;   
 }
 
-p {
-    font-size: 20px;
-    color: #b789ef;
-    font-family: "Lato", serif;
-    font-weight: 400;
-    font-style: normal;
-    
-}
-
-h1 {
-    font-family: "Pacifico", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 70px;
-    text-align: center;
-    color: #f011c5;
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: -10px;
-}
-
-h2 {
-    color:rgb(17, 240, 50); 
-    font-family: "Lato", serif;
-    font-weight: 700;
-    font-style: normal;
-    margin-left: 50px;
-}
-
-main li {
-    font-size: 20px;
-    color: rgb(183, 137, 239);
-    margin: 0px 50px 0px 50px;
-}
-
 /*navigation bar*/
 
 .nav_bar ul {
@@ -71,6 +36,41 @@ main li {
     display: inline-block;
 }
 
+/* General text properties */
+h1 {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+    color: #f011c5;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+
+h2 {
+    color:rgb(17, 240, 50); 
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 50px;
+}
+
+p {
+    font-size: 20px;
+    color: #b789ef;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+main li {
+    font-size: 20px;
+    color: rgb(183, 137, 239);
+    margin: 0px 150px 0px 150px;
+}
+
 /* cv_nav ul {
     list-style-type: none;
     padding: 30px;
@@ -101,44 +101,60 @@ main li {
 
 @media screen and (max-width: 1024px) {
 
+    h2 {
+        margin-left: 100px;
+    }
 }  
 
 @media screen and (max-width: 800px) {
-h1 {
-    font-size: 40px;
-}
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        margin-left: 75px;
+    }
+
+    main li {
+        margin: 0px 100px 0px 100px;
+    }
+    
+
 }
 
 @media screen and (max-width: 768px) {
 
-h2 {
-    font-weight: 500;
-}
+    p {
+        font-size: 18px;
+    }
 
-p {
-    font-size: 18px;
-}
-
-.nav_bar a {
-    font-size: 16px;
-    font-weight: normal;
-}
+    .nav_bar a {
+        font-size: 16px;
+        font-weight: normal;
+    }
 }
 
 @media screen and (max-width: 425px) {
 
-h2 {
-    font-weight: 400;
-}
+    h2 {
+        margin-left: 20px;
+    }
 
-p {
-    font-size: 16px;
-}
+    p {
+        font-size: 16px;
+        text-align: left;
+    }
 
-.nav_bar a {
-    font-size: 12px;
-    font-weight: normal;
-}
+    .nav_bar a {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    main li {
+        font-size: 16px;
+        margin: 0px 0px 0px 0px;
+    }
 
 
 @media screen and (max-width: 345px) {
