@@ -163,7 +163,7 @@ p {
 @media screen and (max-width: 425px) {
 
     p {
-        font-size: 16px;
+        font-size: 16px;   
     }
 
     .nav_bar a {
@@ -188,4 +188,13 @@ p {
     .introduction_text {
         width:95%;
     }      
+
+@media screen and (max-width: 345px) {
+    p {
+        text-align: left;
+    }
+    .fa-brands {
+        font-size: 16px;
+        }  
+    }
 }

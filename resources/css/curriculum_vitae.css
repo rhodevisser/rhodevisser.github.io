@@ -142,7 +142,13 @@ p {
 
 h1 {
     font-size: 26px;
-}    
+}   
+
+@media screen and (max-width: 345px) {
+    p {
+        text-align: left;
+    }
+}
 }
 
 
