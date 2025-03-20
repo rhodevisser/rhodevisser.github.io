@@ -60,7 +60,7 @@ h1 {
 
 @media screen and (max-width: 1185px) {
     p {
-    margin: 40px 150px 20px 150px;
+    margin: 40px 300px 20px 300px;
     }
 }
 
@@ -74,7 +74,7 @@ h1 {
     }
 
     p {
-        margin: 20px 50px 20px 50px;
+        margin: 20px 100px 20px 100px;
     }
 }
 
@@ -82,7 +82,7 @@ h1 {
 
     p {
         font-size: 18px;
-        margin: 20px 20px 20px 20px;
+        margin: 20px 50px 20px 50px;
     }
 
     .nav_bar a {
