@@ -128,7 +128,7 @@ p {
 
 @media screen and (max-width: 800px) {
     #main_name {
-        font-size: 33px;
+        font-size: 40px;
     }
 
     #main_role {
@@ -172,7 +172,7 @@ p {
     }
 
     #main_name {
-        font-size: 26px;
+        font-size: 40px;
     }
 
     #main_role {
