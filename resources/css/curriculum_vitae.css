@@ -54,7 +54,6 @@ h2 {
     font-family: "Lato", serif;
     font-weight: 700;
     font-style: normal;
-    margin-left: 50px;
 }
 
 p {
@@ -65,10 +64,12 @@ p {
     font-style: normal;    
 }
 
-main li {
+main {
     font-size: 20px;
     color: rgb(183, 137, 239);
-    margin: 0px 150px 0px 150px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 /* cv_nav ul {
