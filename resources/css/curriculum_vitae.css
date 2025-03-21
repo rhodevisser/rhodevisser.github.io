@@ -113,3 +113,10 @@ main {
         font-weight: normal;
     }
 }
+
+@media screen and (max-width: 325px) {
+    
+    main {
+    width: 310px; 
+    }
+}
