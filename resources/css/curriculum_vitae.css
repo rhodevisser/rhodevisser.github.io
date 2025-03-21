@@ -65,10 +65,11 @@ p {
     font-style: normal;    
 }
 
-main li {
+main {
     font-size: 20px;
     color: rgb(183, 137, 239);
-    margin: 0px 150px 0px 150px;
+    width: 800px;
+    margin: 0 auto;
 }
 
 /* cv_nav ul {
