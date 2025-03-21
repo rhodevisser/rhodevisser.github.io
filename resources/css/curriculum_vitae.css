@@ -68,28 +68,21 @@ main {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
-
-    h2 {
-        margin-left: 100px;
-    }
-}  
+/* responsiveness */
 
 @media screen and (max-width: 800px) {
+    main {
+        width: 600px; 
+        margin: 0 auto; 
+    }
+
+    li {
+        font-size: 16px;
+    }
 
     h1 {
         font-size: 40px;
-    }
-
-    h2 {
-        margin-left: 75px;
-    }
-
-    main li {
-        margin: 0px 100px 0px 100px;
-    }
-    
-
+    }   
 }
 
 @media screen and (max-width: 768px) {
@@ -106,8 +99,8 @@ main {
 
 @media screen and (max-width: 425px) {
 
-    h2 {
-        margin-left: 20px;
+    main {
+        width: 100%; 
     }
 
     p {
@@ -119,18 +112,4 @@ main {
         font-size: 12px;
         font-weight: normal;
     }
-
-    main li {
-        font-size: 16px;
-        margin: 0px 0px 0px 0px;
-    }
-
-
-@media screen and (max-width: 345px) {
-    p {
-        text-align: left;
-    }
 }
-}
-
-
