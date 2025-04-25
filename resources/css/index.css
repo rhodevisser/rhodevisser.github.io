@@ -156,6 +156,7 @@ p {
 
     .portrait_intro {
         flex-direction: column;
+        padding-bottom: 3px;
     }
     .introduction_text {
         width: 95%;
