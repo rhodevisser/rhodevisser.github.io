@@ -54,29 +54,28 @@ p {
 /* Styling for the flower that is attached to cursor */
 
 
-.container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
+/* Styling for the flower that is attached to cursor */
 #flower-container {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    pointer-events: none; /* Ensures the container doesn't interfere with page interactions */
+    z-index: 9999; /* Ensures the flower appears above other elements */
 }
 
+/* Flower element styling */
 .flower {
     position: absolute;
-    width: 40px; 
+    width: 40px; /* Small size as requested */
     height: 40px;
     pointer-events: none; /* Ensures the flower doesn't interfere with page interactions */
     z-index: 9999; /* Ensures the flower appears above other elements */
     transition: transform 0.1s ease-out;
 }
 
-/* flower styling */
+/* SVG flower styling */
 .flower-svg {
     width: 100%;
     height: 100%;
@@ -93,6 +92,7 @@ p {
 .leaf {
     fill: #32CD32; /* Green leaves */
 }
+
 
 
 /*name and role*/
