@@ -147,6 +147,7 @@ p {
 
     p {
         font-size: 18px;
+        padding: 15px 5px 15px 5px;
     }
 
     .nav_bar a {
@@ -156,7 +157,6 @@ p {
 
     .portrait_intro {
         flex-direction: column;
-        padding-bottom: 3px;
     }
     .introduction_text {
         width: 95%;
