@@ -19,13 +19,16 @@ document.addEventListener('DOMContentLoaded', function() {
         return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
     }
 
-    // Als het een touchscreen is, verberg de bloem en stop de functionaliteit
-    if (isTouchDevice()) {
-        if (flowerContainer) {
-            flowerContainer.style.display = 'none'; // Verberg de bloemcontainer
+        // Controleer of het een touchscreen is
+        // Controleer of het een touchscreen is
+        if (isTouchDevice()) {
+            if (flowerContainer) {
+                flowerContainer.style.display = 'none'; // Verberg de bloemcontainer
+            }
+
+            return; // Stop verdere uitvoering voor touch-apparaten
         }
-        return; // Stop verdere uitvoering
-    }
+    
     
     
     // Create a Flower class to manage our flower's properties and behaviors
