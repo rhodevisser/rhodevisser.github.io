@@ -51,49 +51,6 @@ p {
     display: inline-block;
 }
 
-/* Styling for the flower that is attached to cursor */
-
-
-/* Styling for the flower that is attached to cursor */
-#flower-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none; /* Ensures the container doesn't interfere with page interactions */
-    z-index: 9999; /* Ensures the flower appears above other elements */
-}
-
-/* Flower element styling */
-.flower {
-    position: absolute;
-    width: 40px; /* Small size as requested */
-    height: 40px;
-    pointer-events: none; /* Ensures the flower doesn't interfere with page interactions */
-    z-index: 9999; /* Ensures the flower appears above other elements */
-    transition: transform 0.1s ease-out;
-}
-
-/* SVG flower styling */
-.flower-svg {
-    width: 100%;
-    height: 100%;
-}
-
-.petal {
-    fill: rgb(255, 2, 129); /* Pink color for petals */
-}
-
-.center {
-    fill: rgba(236, 240, 17, 0.819); /* Yellow center */
-}
-
-.leaf {
-    fill: rgb(17, 240, 50); /* Green leaves */
-}
-
-
 
 /*name and role*/
 
