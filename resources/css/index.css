@@ -1,8 +1,11 @@
-* {
-    background-color: rgb(6, 0, 14);   
+* { 
     box-sizing: border-box; 
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: black;
 }
 
 p {
@@ -79,15 +82,15 @@ p {
 }
 
 .petal {
-    fill: #FF69B4; /* Pink color for petals */
+    fill: rgb(255, 2, 129); /* Pink color for petals */
 }
 
 .center {
-    fill: #FFFF00; /* Yellow center */
+    fill: rgba(236, 240, 17, 0.819); /* Yellow center */
 }
 
 .leaf {
-    fill: #32CD32; /* Green leaves */
+    fill: rgb(17, 240, 50); /* Green leaves */
 }
 
 
