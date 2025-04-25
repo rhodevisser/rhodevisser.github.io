@@ -1,6 +1,11 @@
 * {
     background-color: rgb(6, 0, 14);   
     box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
 }
 
 p {
@@ -44,6 +49,49 @@ p {
 
 .nav_bar li{
     display: inline-block;
+}
+
+/* Styling for the flower that is attached to cursor */
+
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#flower-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.flower {
+    position: absolute;
+    width: 40px; 
+    height: 40px;
+    pointer-events: none; /* Ensures the flower doesn't interfere with page interactions */
+    z-index: 9999; /* Ensures the flower appears above other elements */
+    transition: transform 0.1s ease-out;
+}
+
+/* flower styling */
+.flower-svg {
+    width: 100%;
+    height: 100%;
+}
+
+.petal {
+    fill: #FF69B4; /* Pink color for petals */
+}
+
+.center {
+    fill: #FFFF00; /* Yellow center */
+}
+
+.leaf {
+    fill: #32CD32; /* Green leaves */
 }
 
 
