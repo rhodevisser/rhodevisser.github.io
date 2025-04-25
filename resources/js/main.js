@@ -1,35 +1,14 @@
 /**
- * Interactive Flower Animation
+ * Interactive Flower Animation - FIXED VERSION
  * 
  * This script creates a cute flower that follows your mouse cursor.
- * It demonstrates several key JavaScript concepts:
- * - DOM manipulation (creating and modifying HTML elements)
- * - Event handling (responding to mouse movements)
- * - Animation using requestAnimationFrame
- * - SVG creation via JavaScript
+ * This version has been fixed to avoid conflicts with existing website styles.
  */
 
 // Wait for the DOM to be fully loaded before running our code
 document.addEventListener('DOMContentLoaded', function() {
     // Get the container where our flower will live
     const flowerContainer = document.getElementById('flower-container');
-
-    // Functie om te detecteren of het apparaat een touchscreen is
-    function isTouchDevice() {
-        return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-    }
-
-        // Controleer of het een touchscreen is
-        // Controleer of het een touchscreen is
-        if (isTouchDevice()) {
-            if (flowerContainer) {
-                flowerContainer.style.display = 'none'; // Verberg de bloemcontainer
-            }
-
-            return; // Stop verdere uitvoering voor touch-apparaten
-        }
-    
-    
     
     // Create a Flower class to manage our flower's properties and behaviors
     class Flower {
@@ -38,8 +17,8 @@ document.addEventListener('DOMContentLoaded', function() {
             this.container = container;
             
             // Set initial position (center of container)
-            this.x = container.offsetWidth / 2;
-            this.y = container.offsetHeight / 2;
+            this.x = window.innerWidth / 2;
+            this.y = window.innerHeight / 2;
             
             // Target position (where the flower wants to go)
             this.targetX = this.x;
@@ -153,24 +132,3 @@ document.addEventListener('DOMContentLoaded', function() {
     // Create a new flower instance
     const flower = new Flower(flowerContainer);
 });
-
-/**
- * LEARNING NOTES:
- * 
- * This code demonstrates several important JavaScript concepts:
- * 
- * 1. Classes: The Flower class encapsulates all the flower's properties and behaviors
- * 
- * 2. SVG Creation: We create an SVG flower using JavaScript's DOM API
- * 
- * 3. Event Handling: We listen for mouse movements across the entire document
- * 
- * 4. Animation Loop: We use requestAnimationFrame for smooth animation
- * 
- * 5. Math Calculations: We use simple physics for natural movement and sine waves for floating effect
- * 
- * Try modifying these values to customize your flower:
- * - Change the speed value to make the flower move faster or slower
- * - Modify the colors in the CSS file
- * - Adjust the SVG paths to create different flower shapes
- */
