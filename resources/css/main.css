@@ -38,9 +38,3 @@
     fill: rgb(17, 240, 50); /* Green leaves */
 }
 
-/* Hide flower container on touch devices */
-@media (hover: none) and (pointer: coarse) {
-    #flower-container {
-        display: none;
-    }
-}
