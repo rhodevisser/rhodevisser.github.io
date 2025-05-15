@@ -9,6 +9,17 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Get the container where our flower will live
     const flowerContainer = document.getElementById('flower-container');
+
+    // Functie om te detecteren of het apparaat een touchscreen is
+    function isTouchDevice() {
+        return 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
+    }
+
+    // Controleer of het een touchscreen is
+    if (isTouchDevice()) {
+        console.log("Touchscreen gedetecteerd. Muisvolger wordt niet uitgevoerd.");
+        return; // Stop verdere uitvoering
+    }
     
     // Create a Flower class to manage our flower's properties and behaviors
     class Flower {
