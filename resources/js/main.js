@@ -25,9 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Activeer de muisvolger
             initializeFlower();
-            
-            // Verwijder deze eventlistener, zodat de functie niet opnieuw wordt aangeroepen
-            document.removeEventListener('mousemove', handleMouseMove);
+        
         });
 
         return; // Stop verdere uitvoering totdat een muis wordt gedetecteerd
