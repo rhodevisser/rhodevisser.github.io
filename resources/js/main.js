@@ -15,10 +15,22 @@ document.addEventListener('DOMContentLoaded', function() {
         return 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
     }
 
-    // Controleer of het een touchscreen is
-    if (isTouchDevice()) {
-        console.log("Touchscreen gedetecteerd. Muisvolger wordt niet uitgevoerd.");
-        return; // Stop verdere uitvoering
+     // Controleer of het een touchscreen is
+     if (isTouchDevice()) {
+        console.log("Touchscreen gedetecteerd. Wacht op muisactiviteit...");
+        
+        // Luister naar muisbewegingen om te controleren of er een muis wordt gebruikt
+        document.addEventListener('mousemove', function handleMouseMove() {
+            console.log("Muis gedetecteerd. Muisvolger wordt geactiveerd.");
+            
+            // Activeer de muisvolger
+            initializeFlower();
+            
+            // Verwijder deze eventlistener, zodat de functie niet opnieuw wordt aangeroepen
+            document.removeEventListener('mousemove', handleMouseMove);
+        });
+
+        return; // Stop verdere uitvoering totdat een muis wordt gedetecteerd
     }
     
     // Create a Flower class to manage our flower's properties and behaviors
