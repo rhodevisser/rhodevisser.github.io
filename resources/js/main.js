@@ -24,15 +24,20 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log("Muis gedetecteerd. Muisvolger wordt geactiveerd.");
             
             // Activeer de muisvolger
-            initializeFlower();
+            initializeFlower(flowerContainer);
+
+             // Verwijder deze eventlistener, zodat de functie niet opnieuw wordt aangeroepen
+             document.removeEventListener('mousemove', handleMouseMove);
         
         });
-
         return; // Stop verdere uitvoering totdat een muis wordt gedetecteerd
     }
     
-    // Create a Flower class to manage our flower's properties and behaviors
-    class Flower {
+    console.log("Geen touchscreen gedetecteerd. Muisvolger wordt direct geactiveerd.");
+    initializeFlower(flowerContainer);
+
+    // Functie om de bloemfunctionaliteit te initialiseren
+    function initializeFlower(container) {
         constructor(container) {
             // Store reference to the container
             this.container = container;
