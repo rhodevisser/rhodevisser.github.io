@@ -12,32 +12,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Functie om te detecteren of het apparaat een touchscreen is
     function isTouchDevice() {
-        return 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
+        return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
     }
 
-     // Controleer of het een touchscreen is
-     if (isTouchDevice()) {
-        console.log("Touchscreen gedetecteerd. Wacht op muisactiviteit...");
-        
-        // Luister naar muisbewegingen om te controleren of er een muis wordt gebruikt
-        document.addEventListener('mousemove', function handleMouseMove() {
-            console.log("Muis gedetecteerd. Muisvolger wordt geactiveerd.");
-            
-            // Activeer de muisvolger
-            initializeFlower(flowerContainer);
-
-             // Verwijder deze eventlistener, zodat de functie niet opnieuw wordt aangeroepen
-             document.removeEventListener('mousemove', handleMouseMove);
-        
-        });
-        return; // Stop verdere uitvoering totdat een muis wordt gedetecteerd
+    // Als het een touchscreen is, verberg de bloem en stop de functionaliteit
+    if (isTouchDevice()) {
+        if (flowerContainer) {
+            flowerContainer.style.display = 'none'; // Verberg de bloemcontainer
+        }
+        return; // Stop verdere uitvoering
     }
-    
-    console.log("Geen touchscreen gedetecteerd. Muisvolger wordt direct geactiveerd.");
-    initializeFlower(flowerContainer);
-
-    // Functie om de bloemfunctionaliteit te initialiseren
-    function initializeFlower(container) {
+   
+    // Create a Flower class to manage our flower's properties and behaviors
+    class Flower {
         constructor(container) {
             // Store reference to the container
             this.container = container;
