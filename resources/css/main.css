@@ -1,4 +1,14 @@
 
+/* alleen tonen bij muisgebruik */
+#flower-container {
+    display: none; /* Hide by default */
+}   
+@media (pointer:fine) {
+    #flower-container {
+        display: block; /* Show when using a fine pointer device */
+    }    
+}
+
 /* Styling for the flower that is attached to cursor */
 #flower-container {
     position: absolute;
