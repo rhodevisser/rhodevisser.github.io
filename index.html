@@ -20,44 +20,65 @@
 <body>
     <!-- This is the mouse follower -->
     <div id="flower-container"></div>
-    <nav class="nav_bar">
-        <ul>
-            <li>
-                <a class="active" href="./index.html">
-                    Home
-                </a>
-            </li>
-            <li>
-                <a href="./over_mij.html">
-                    Over mij
-                </a>
-            </li>
-    <!--
-            <li>
-                <a href="./portfolio.html">
-                    Portfolio
-                </a>
-            </li>
-    -->
-            <li>
-                <a href="./curriculum_vitae.html">
-                    CV
-                </a>
-            </li>
-    <!--
-            <li>
-                <a href="./blog.html">
-                    Blog
-                </a>
-            </li>
-            <li>
-                <a href="./contact.html">
-                    Contact
-                </a>
-            </li>
-    -->
-        </ul>
-    </nav>
+
+
+        <div class="header_text">
+            <h1>
+                Rhodé Visser
+            </h1>
+            <h2>
+                designNerd
+            </h2>
+        </div>
+
+    <header class="header">
+        <!-- <img class="logo" src="./resources/images/IMG_1157.png" alt="Logo van Rhodé Visser"> -->
+        <nav class="nav_bar">
+            <ul class="nav_menu">
+                <li class="nav_item">
+                    <a class="active" href="./index.html">
+                        Home
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a href="./over_mij.html">
+                        Over mij
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a href="./curriculum_vitae.html">
+                        CV
+                    </a>
+                </li>
+            </ul>
+
+            <div class="nav_container_burger">
+                <div class="hamburger" id="hamburger-menu">
+                    <button id="menu_hamburger" class="hamburger_button" onclick="menuBar()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+
+                <ul id="menu_list" class="nav_menu">
+                    <li class="nav_item">
+                        <a class="active" href="./index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="./over_mij.html">
+                            Over mij
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="./curriculum_vitae.html">
+                            CV
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
 <!--This is the homepage-->
     <main>
