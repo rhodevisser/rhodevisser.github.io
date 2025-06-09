@@ -31,14 +31,12 @@
                 </h2>
             </div>
     </header>
-
-        
-
     
    
     <nav class="nav_bar">
         <!-- <img class="logo" src="./resources/images/IMG_1157.png" alt="Logo van Rhodé Visser"> -->
         <!-- Navigation bar with links to other pages on min 756px -->
+        <ul class="nav_menu">
             <li class="nav_item">
                 <a class="active" href="./index.html">
                     Home
@@ -54,40 +52,40 @@
                     CV
                 </a>
             </li>
-            </ul>
-
-            <div class="nav_container_burger">
-                <div class="hamburger" id="hamburger-menu">
-                    <button id="menu_hamburger" class="hamburger_button" onclick="menuBar()">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
-                </div>
-
-                <ul id="menu_list" class="nav_menu">
-                    <li class="nav_item">
-                        <a class="active" href="./index.html">
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="./over_mij.html">
-                            Over mij
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="./curriculum_vitae.html">
-                            CV
-                        </a>
-                    </li>
-                </ul>
+        </ul>
+        
          <!-- Navigation bar with links in burger to other pages on max 756px -->
+        <div class="nav_container_burger">
+            <div class="hamburger" id="hamburger-menu">
+                <button id="menu_hamburger" class="hamburger_button" onclick="menuBar()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
             </div>
-        </nav>
 
+            <ul id="menu_list" class="nav_menu">
+                <li class="nav_item">
+                    <a class="active" href="./index.html">
+                        Home
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a href="./over_mij.html">
+                        Over mij
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a href="./curriculum_vitae.html">
+                        CV
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- This is a mouse follower -->
     <div id="flower-container"></div>
 
     <main>
-
         <!--Name and role-->
         <div class="name_role">
             <h1 id="main_name">
