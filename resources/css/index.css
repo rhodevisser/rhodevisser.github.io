@@ -4,6 +4,10 @@
 
 body {
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 p {
@@ -21,7 +25,6 @@ p {
     list-style-type: none;
     padding: 30px;
     margin: 0px;
-    overflow: hidden;
     text-align: center;
 }
 
