@@ -105,4 +105,47 @@ h1 {
     }
 }
 
+/*hamburger menu https://www.youtube.com/watch?v=gOXYcXKVl1c*/
+
+
+.fa-solid {
+    color: rgb(17, 240, 50);
+    margin: 10px; 
+    font-size: 24px;
+    background-color: black;
+}
+
+#menu_list {
+    display: none;
+    background-color: black;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+#menu_list li {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu_list.open {
+    display: block;
+}
+
+#menu_hamburger {
+    background-color: black;
+    border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav_container_burger {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+  .nav_menu {
+        display: none;
+  }
+} 
+
        
