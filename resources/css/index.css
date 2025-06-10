@@ -1,7 +1,5 @@
 * { 
     box-sizing: border-box; 
-    margin: 0;
-    padding: 0;
 }
 
 body {
@@ -156,7 +154,6 @@ p {
     color: rgb(17, 240, 50);
     margin: 10px; 
     font-size: 24px;
-
 }
 
 .fa-brands:hover {
@@ -204,9 +201,6 @@ p {
         font-weight: normal;
     }
 
-    .container_introduction {
-        flex-direction: column;
-    }
     .introduction_text {
         width: 95%;
     }
