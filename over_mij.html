@@ -16,25 +16,33 @@
     </title>
 </head>
 
-<nav class="nav_bar">
-    <ul>
-        <li>
-            <a href="./index.html">
-                Home
-            </a>
-        </li>
-        <li>
-            <a class="active" href="./over_mij.html">
-                Over mij
-            </a>
-        </li>
-        <li>
-            <a href="./curriculum_vitae.html">
-                CV
-            </a>
-        </li>
-    </ul>
-</nav>
+<body>
+    <nav class="nav_bar">
+        <ul class="nav_menu">
+            <li class="nav_item">
+                <a href="./index.html">
+                    Home
+                </a>
+            </li>
+            <li class="nav_item">
+                <a class="active" href="./over_mij.html">
+                    Over mij
+                </a>
+            </li>
+            <li class="nav_item">
+                <a href="./curriculum_vitae.html">
+                    CV
+                </a>
+            </li>
+        </ul>
+
+        <!-- Navigation bar with links in burger to other pages on max 756px -->
+        <div class="nav_container_burger">
+            <div class="hamburger" id="hamburger-menu">
+                <button id="menu_hamburger" class="hamburger_button" onclick="menuBar()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
 
 <div id="flower-container"></div>
 
