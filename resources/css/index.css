@@ -129,7 +129,7 @@ p {
 
 /*portrait and intro flex*/
 
-.portrait_intro {
+.container_introduction {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -168,10 +168,10 @@ p {
 
 /* responsive web > media query to add a breakpoints: */
 @media screen and (max-width: 1024px) {
-    .container_portrait, .introduction_text{
+    .container_introduction, .introduction_text{
         margin: 0 auto;
     }
-    .portrait_intro {
+    .container_introduction {
         flex-grow: 1;
         
     }        
@@ -204,7 +204,7 @@ p {
         font-weight: normal;
     }
 
-    .portrait_intro {
+    .container_introduction {
         flex-direction: column;
     }
     .introduction_text {
@@ -232,7 +232,7 @@ p {
         font-size: 18px;
 
     }
-    .portrait_intro {
+    .container_introduction {
         flex-direction: column;
 
     }
