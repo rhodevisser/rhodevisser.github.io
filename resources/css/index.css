@@ -55,7 +55,7 @@ header{
 .nav_bar li{
     display: inline-block;
 }
-
+ /* Navigation container for burger menu */
 .nav_container_burger {
     display: flex;
     align-items: center;
@@ -74,11 +74,6 @@ header{
     justify-content: space-evenly;
 }
 
-@media screen and (max-width: 768px) {
-  .nav_menu {
-        display: none;
-  }
-}
 
 /*hamburger menu https://www.youtube.com/watch?v=gOXYcXKVl1c*/
 
@@ -116,8 +111,14 @@ header{
   .nav_container_burger {
         display: none;
     }
-    
 }
+@media screen and (max-width: 768px) {
+  .nav_menu {
+        display: none;
+  }
+} 
+    
+
 
 
 /*name and role*/
