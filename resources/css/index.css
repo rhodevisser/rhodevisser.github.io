@@ -19,6 +19,11 @@ p {
     font-style: normal;
 }
 
+header{
+    font-size: 1px;
+}
+
+
  /*navigation bar*/
 
 .nav_bar ul {
