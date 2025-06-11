@@ -120,6 +120,7 @@ main {
     color: rgb(183, 137, 239);
     width: 100%;
     padding: 10px;
+    margin-left: 10px;
 }
 
 /* responsiveness */
