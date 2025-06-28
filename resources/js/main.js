@@ -132,8 +132,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Create a new flower instance
     const flower = new Flower(flowerContainer);
 });
- 
-//function menuBar() {
-//    menulist = document.getElementById("menu_list");
-//    menulist.classList.toggle("open");
-//}
+
+function menuBar() {
+    menulist = document.getElementById("menu_list");
+    menulist.classList.toggle("open");
+}
