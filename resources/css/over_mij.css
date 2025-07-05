@@ -59,6 +59,10 @@ h1 {
     color: #f011c5;
 }
 
+.overmij_text {
+    width: 480px;
+}
+
 @media screen and (max-width: 800px) {
     h1 {
         font-size: 40px;
