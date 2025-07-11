@@ -48,6 +48,7 @@ p {
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
+    margin: 10px;
 }
 
 h1 {
@@ -59,9 +60,6 @@ h1 {
     color: #f011c5;
 }
 
-.overmij_text {
-    width: 480px;
-}
 
 @media screen and (max-width: 800px) {
     h1 {
