@@ -1,0 +1,173 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*navigation bar*/
+
+.nav_bar ul {
+    list-style-type: none;
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+}
+
+.nav_bar a{
+    color: rgb(190, 17, 240);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Raleway", serif;
+    font-style: normal;
+}
+
+.nav_bar a:hover{
+    color: #f011c5;
+}
+
+.nav_bar a.active {
+    color: rgb(17, 240, 50);
+}
+
+.nav_bar li{
+    display: inline-block;
+}
+
+/* Navigation container for burger menu */
+
+.nav_container_burger {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*hamburger menu https://www.youtube.com/watch?v=gOXYcXKVl1c*/
+
+
+.fa-solid {
+    color: rgb(17, 240, 50);
+    margin: 10px; 
+    font-size: 24px;
+    background-color: black;
+}
+
+#menu_list {
+    display: none;
+    background-color: black;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+#menu_list li {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu_list.open {
+    display: block;
+}
+
+#menu_hamburger {
+    background-color: black;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav_menu {
+        display: none;
+  }
+} 
+
+@media screen and (min-width: 768px) {
+  .nav_container_burger {
+        display: none;
+    }
+    
+}
+
+/* General text properties */
+h1 {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+    color: #f011c5;
+}
+
+h2 {
+    color:rgb(17, 240, 50); 
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-size: 20px;
+    color: #b789ef;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+main {
+    font-size: 20px;
+    color: rgb(183, 137, 239);
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 800px) {
+
+    li {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }   
+}
+
+@media screen and (max-width: 768px) {
+
+    p {
+        font-size: 18px;
+    }
+
+    .nav_bar a {
+        font-size: 16px;
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    main {
+        width: 300px;
+    }
+
+    p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .nav_bar a {
+        font-size: 12px;
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    
+    main {
+    width: 300px; 
+    }
+}

@@ -1,0 +1,264 @@
+* { 
+    box-sizing: border-box; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+p {
+    font-size: 20px;
+    color: #b789ef;
+    text-align: center;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    font-size: 1px;
+}
+
+
+ /*navigation bar*/
+
+.nav_bar ul {
+    list-style-type: none;
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+}
+
+.nav_bar a{
+    color: rgb(190, 17, 240); 
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Raleway", serif;
+    font-style: normal;
+}
+
+.nav_bar a:hover{
+    color: #f011c5;
+}
+
+.nav_bar a.active{
+    color: rgb(17, 240, 50);
+}
+
+.nav_bar li{
+    display: inline-block;
+}
+ /* Navigation container for burger menu */
+.nav_container_burger {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*container for the introduction*/
+
+.container_introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button_box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*hamburger menu https://www.youtube.com/watch?v=gOXYcXKVl1c*/
+
+
+.fa-solid {
+    color: rgb(17, 240, 50);
+    margin: 10px; 
+    font-size: 24px;
+    background-color: black;
+}
+
+#menu_list {
+    display: none;
+    background-color: black;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+#menu_list li {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu_list.open {
+    display: block;
+}
+
+#menu_hamburger {
+    background-color: black;
+    border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav_container_burger {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+  .nav_menu {
+        display: none;
+  }
+} 
+    
+
+
+
+/*name and role*/
+
+#main_name {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    color: #f011c5;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+
+#main_role {
+    text-align: center;
+    color:rgb(17, 240, 50); 
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-family: "Lato", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/*portrait and intro flex*/
+
+.container_introduction {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container_portrait {
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border: solid rgb(17, 240, 50);    
+    margin: 40px;
+}
+
+.introduction_text {
+    width: 43.75em;
+    margin: 40px;
+}
+
+/* button styling */
+.fa-brands {
+    color: rgb(17, 240, 50);
+    margin: 10px; 
+    font-size: 24px;
+}
+
+.fa-brands:hover {
+    color: #f011c5;
+}
+
+
+
+
+/* responsive web > media query to add a breakpoints: */
+@media screen and (max-width: 1024px) {
+    .container_introduction, .introduction_text{
+        margin: 0 auto;
+    }
+    .container_introduction {
+        flex-grow: 1;
+        
+    }        
+    .introduction_text {
+        width: 480px;
+    }  
+}
+
+@media screen and (max-width: 800px) {
+    #main_name {
+        font-size: 40px;
+    }
+
+    #main_role {
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    p {
+        font-size: 18px;
+        padding: 15px 5px 15px 5px;
+    }
+
+    .nav_bar a {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .introduction_text {
+        width: 95%;
+    }
+
+
+    
+}
+
+@media screen and (max-width: 425px) {
+
+    p {
+        font-size: 16px;   
+        
+    }
+
+    .nav_bar a {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    #main_role {
+        font-weight: 400;
+        font-size: 18px;
+
+    }
+    .container_introduction {
+        flex-direction: column;
+
+    }
+
+    .introduction_text {
+        width:95%;
+    }      
+
+@media screen and (max-width: 345px) {
+
+    .fa-brands {
+        font-size: 16px;
+        }  
+    }
+}
