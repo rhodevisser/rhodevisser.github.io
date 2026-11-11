@@ -83,12 +83,20 @@
 
     .home-buttons a {
         color: rgb(17, 240, 50);
-        font-size: 24px;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
         text-decoration: none;
     }
 
     .home-buttons a:hover {
         color: #f011c5;
+    }
+
+    /* Smooth scrolling for anchor links */
+    .home-right {
+        scroll-behavior: smooth;
     }
 
     /* Right pane - scrollable "Over mij" */
@@ -183,6 +191,34 @@
         margin: 40px 0;
     }
 
+    /* Blog CTA section */
+    .blog-cta {
+        text-align: center;
+        padding: 20px;
+        background: rgba(183, 137, 239, 0.1);
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .blog-cta p {
+        font-size: 16px;
+        color: #b789ef;
+        font-family: 'Lato', sans-serif;
+        line-height: 1.8;
+        margin: 0;
+    }
+
+    .blog-cta a {
+        color: rgb(17, 240, 50);
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    .blog-cta a:hover {
+        color: #f011c5;
+        text-decoration: underline;
+    }
+
     /* Mobile fallback - single column, normal scrolling */
     @media (max-width: 768px) {
         .home-split-wrapper {
@@ -241,6 +277,13 @@
                 </p>
             </div>
 
+            <!-- Section anchor buttons -->
+            <div class="home-buttons">
+                <a href="#over-mij">Over mij</a>
+                <a href="#cv">CV</a>
+                <a href="#blog">Blog</a>
+            </div>
+
             <!-- Social buttons -->
             <div class="home-buttons">
                 <a href="https://github.com/rhodevisser" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
@@ -253,43 +296,45 @@
                     <i class="fa-brands fa-instagram"></i>
                 </a>
             </div>
+
+
         </div>
     </div>
 
     <!-- Right pane: "Over mij" section (scrollable) -->
     <div class="home-right">
-        <div class="about-section-title">
+        <div class="about-section-title" id="over-mij">
             <h1>Over mij</h1>
         </div>
 
         <div class="overmij_text">
             <p>
-                Met een achtergrond in zorg, kunst, cultuur en educatie heb ik gewerkt met verschillende 
-                mensen en ontwikkelde ik een voorkeur voor het iteratieve proces. Mijn kracht ligt in het 
-                analyseren van knelpunten, bijvoorbeeld veroorzaakt door vage rollen of te grote doelen. 
-                Ik luister actief naar wat er speelt in een team, voel onuitgesproken dynamieken aan en 
+                Met een achtergrond in zorg, kunst, cultuur en educatie heb ik gewerkt met verschillende
+                mensen en ontwikkelde ik een voorkeur voor het iteratieve proces. Mijn kracht ligt in het
+                analyseren van knelpunten, bijvoorbeeld veroorzaakt door vage rollen of te grote doelen.
+                Ik luister actief naar wat er speelt in een team, voel onuitgesproken dynamieken aan en
                 vertaal die naar focuspunten en concrete acties. <br><br>
-                Mijn interesse in technologie ontstond uit een behoefte aan betere middelen om duurzame 
-                verandering mogelijk te maken. In zorg en educatie liep ik vaak aan tegen grenzen in 
-                werkwijze en infrastructuur. Tegelijkertijd begon ik me persoonlijk te verdiepen in AI, 
-                werkte ik in installatief werk met AR, en ontwikkelde ik een systeemdenkende benadering 
-                binnen mijn storytellingpraktijk. Vanuit die achtergrond begon ik verbanden te zien tussen 
-                sociale processen en technische structuren — en ontdekte ik hoe waardevol het is als iemand 
+                Mijn interesse in technologie ontstond uit een behoefte aan betere middelen om duurzame
+                verandering mogelijk te maken. In zorg en educatie liep ik vaak aan tegen grenzen in
+                werkwijze en infrastructuur. Tegelijkertijd begon ik me persoonlijk te verdiepen in AI,
+                werkte ik in installatief werk met AR, en ontwikkelde ik een systeemdenkende benadering
+                binnen mijn storytellingpraktijk. Vanuit die achtergrond begon ik verbanden te zien tussen
+                sociale processen en technische structuren — en ontdekte ik hoe waardevol het is als iemand
                 die sociaal en procesmatig werkt ook technische mogelijkheden begrijpt en inzet. <br><br>
-                Mijn veelzijdige achtergrond heeft mijn denken getraind in het schakelen tussen contexten, 
-                mensen en systemen. Daardoor ben ik ontvankelijk voor wat zich aandient, herken ik snel 
+                Mijn veelzijdige achtergrond heeft mijn denken getraind in het schakelen tussen contexten,
+                mensen en systemen. Daardoor ben ik ontvankelijk voor wat zich aandient, herken ik snel
                 patronen en leer ik nieuwe technologieën of werkvormen makkelijk op inhoud én procesniveau. <br><br>
-                Met basiskennis van HTML, CSS en JavaScript en ervaring uit conceptontwikkelingsprojecten heb 
-                ik zicht op wat er komt kijken bij een creatief of technisch proces. Daardoor kan ik (technische) 
-                taken beter identificeren en vertalen naar werkbare stappen. Ik gebruik tools zoals Miro en 
-                methodieken zoals de zes hoeden om gestructureerde sessies te begeleiden. Mijn communicatiestijl 
+                Met basiskennis van HTML, CSS en JavaScript en ervaring uit conceptontwikkelingsprojecten heb
+                ik zicht op wat er komt kijken bij een creatief of technisch proces. Daardoor kan ik (technische)
+                taken beter identificeren en vertalen naar werkbare stappen. Ik gebruik tools zoals Miro en
+                methodieken zoals de zes hoeden om gestructureerde sessies te begeleiden. Mijn communicatiestijl
                 is gericht op helderheid en actie, waarbij ik de afstemming en opvolging van taken faciliteer.
             </p>
         </div>
 
         <hr class="cv-divider">
 
-        <div class="about-section-title">
+        <div class="about-section-title" id="cv">
             <h1>CV</h1>
         </div>
 
@@ -407,6 +452,15 @@
                 <li><p>Huis van Puck, Arnhem (Netherlands, 2015)</p></li>
                 <li><p>Studio Beeldontwerp, Arnhem (Netherlands, 2014)</p></li>
             </ul>
+        </div>
+
+        <hr class="cv-divider">
+
+        <div class="blog-cta" id="blog">
+            <p>
+                I like to blog about things that interest me. Not only code, but also other interests I might have.
+                <a href="{{ route('blog.index') }}">Read my blog posts here</a>.
+            </p>
         </div>
     </div>
 </div>

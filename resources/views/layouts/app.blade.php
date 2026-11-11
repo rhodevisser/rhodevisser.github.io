@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Rhodé Visser') - sociaal ontwerpend kunstenaar, webdesigner en onderzoeker</title>
-    <meta name="description" content="@yield('description', 'Hoi, ik ben Rhodé Visser: Op dit moment maak ik de overstap naar IT, waar ik mijn ervaring met mensen, passie voor leren en innovatie wil inzetten om bij te dragen aan technologie die de wereld mooier maakt.')">
+    <title>@yield('title', 'Rhodé Visser') - Laravel Developer </title>
+    <meta name="description" content="@yield('description', 'Hi There! I build things with Laravel, and I like to collaborate with others.')">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -23,48 +23,7 @@
         <h2>@yield('header-subtitle', 'Op dit moment maak ik de overstap naar IT, waar ik mijn ervaring met mensen, passie voor leren en innovatie wil inzetten om bij te dragen aan technologie die de wereld mooier maakt.')</h2>
     </header>
 
-    <!-- Navigation -->
-    <nav class="nav_bar">
-        <!-- Desktop Navigation -->
-        <ul class="nav_menu desktop-nav">
-            <li class="nav_item">
-                <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Home</a>
-            </li>
-            <li class="nav_item">
-                <a href="{{ route('blog.index') }}" class="{{ request()->routeIs('blog.*') ? 'active' : '' }}">Blog</a>
-            </li>
-            <li class="nav_item">
-                <a href="{{ route('portfolio') }}" class="{{ request()->routeIs('portfolio') ? 'active' : '' }}">Portfolio</a>
-            </li>
-            <li class="nav_item">
-                <a href="{{ route('contact') }}" class="{{ request()->routeIs('contact') ? 'active' : '' }}">Contact</a>
-            </li>
-        </ul>
 
-        <!-- Mobile Hamburger Menu -->
-        <div class="nav_container_burger">
-            <div class="hamburger" id="hamburger-menu">
-                <button id="menu_hamburger" class="hamburger_button" onclick="menuBar()">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-            </div>
-
-            <ul id="menu_list" class="nav_menu mobile-nav">
-                <li class="nav_item">
-                    <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Home</a>
-                </li>
-                <li class="nav_item">
-                    <a href="{{ route('blog.index') }}" class="{{ request()->routeIs('blog.*') ? 'active' : '' }}">Blog</a>
-                </li>
-                <li class="nav_item">
-                    <a href="{{ route('portfolio') }}" class="{{ request()->routeIs('portfolio') ? 'active' : '' }}">Portfolio</a>
-                </li>
-                <li class="nav_item">
-                    <a href="{{ route('contact') }}" class="{{ request()->routeIs('contact') ? 'active' : '' }}">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
     <!-- Flower Animation Container -->
     <div id="flower-container"></div>
