@@ -1,12 +1,11 @@
-* { 
-    box-sizing: border-box; 
+* {
+    box-sizing: border-box;
 }
 
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 p {
@@ -33,7 +32,7 @@ header{
 }
 
 .nav_bar a{
-    color: rgb(190, 17, 240); 
+    color: rgb(190, 17, 240);
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -80,7 +79,7 @@ header{
 
 .fa-solid {
     color: rgb(17, 240, 50);
-    margin: 10px; 
+    margin: 10px;
     font-size: 24px;
     background-color: black;
 }
@@ -116,8 +115,8 @@ header{
   .nav_menu {
         display: none;
   }
-} 
-    
+}
+
 
 
 
@@ -137,7 +136,7 @@ header{
 
 #main_role {
     text-align: center;
-    color:rgb(17, 240, 50); 
+    color:rgb(17, 240, 50);
     margin-top: -10px;
     margin-bottom: 30px;
     font-family: "Lato", serif;
@@ -160,7 +159,7 @@ header{
     overflow: hidden;
     display: flex;
     justify-content: center;
-    border: solid rgb(17, 240, 50);    
+    border: solid rgb(17, 240, 50);
     margin: 40px;
 }
 
@@ -172,7 +171,7 @@ header{
 /* button styling */
 .fa-brands {
     color: rgb(17, 240, 50);
-    margin: 10px; 
+    margin: 10px;
     font-size: 24px;
 }
 
@@ -190,11 +189,11 @@ header{
     }
     .container_introduction {
         flex-grow: 1;
-        
-    }        
+
+    }
     .introduction_text {
         width: 480px;
-    }  
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -206,7 +205,7 @@ header{
         font-weight: 500;
         font-size: 20px;
     }
-    
+
 }
 
 @media screen and (max-width: 768px) {
@@ -226,14 +225,14 @@ header{
     }
 
 
-    
+
 }
 
 @media screen and (max-width: 425px) {
 
     p {
-        font-size: 16px;   
-        
+        font-size: 16px;
+
     }
 
     .nav_bar a {
@@ -253,12 +252,12 @@ header{
 
     .introduction_text {
         width:95%;
-    }      
+    }
 
 @media screen and (max-width: 345px) {
 
     .fa-brands {
         font-size: 16px;
-        }  
+        }
     }
 }
