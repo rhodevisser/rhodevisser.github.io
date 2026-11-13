@@ -14,7 +14,6 @@
         padding: 40px 20px;
         position: sticky;
         top: 0;
-        overflow-y: auto;
         & .profile-name-role {
             text-align: center;
             margin-bottom: 40px;
