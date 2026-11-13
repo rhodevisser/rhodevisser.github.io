@@ -3,13 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
-<style>
 
-
-
-
-
-</style>
 
 <div class="home-split-wrapper">
     <!-- Left pane: Personal intro (sticky) -->

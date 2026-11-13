@@ -1,13 +1,7 @@
 <?php $__env->startSection('title', 'Home'); ?>
 
 <?php $__env->startSection('content'); ?>
-<style>
 
-
-
-
-
-</style>
 
 <div class="home-split-wrapper">
     <!-- Left pane: Personal intro (sticky) -->

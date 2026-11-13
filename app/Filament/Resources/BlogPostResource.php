@@ -5,10 +5,10 @@ namespace App\Filament\Resources;
 use App\Filament\Resources\BlogPostResource\Pages;
 use App\Models\BlogPost;
 use Filament\Resources\Resource;
+use Filament\Schemas\Components;
+use Filament\Schemas\Schema;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Filament\Schemas\Schema;
-use Filament\Schemas\Components;
 
 class BlogPostResource extends Resource
 {

@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\BlogPost;
 
 class BlogController extends Controller
@@ -12,6 +11,7 @@ class BlogController extends Controller
         $posts = BlogPost::where('published_at', '<=', now())
             ->orderBy('published_at', 'desc')
             ->paginate(10);
+
         return view('blog.index', compact('posts'));
     }
 
