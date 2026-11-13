@@ -20,7 +20,7 @@
     <!-- SEO Header -->
     <header class="sr-only">
         <h1>Rhodé Visser</h1>
-        <h2>@yield('header-subtitle', 'Op dit moment maak ik de overstap naar IT, waar ik mijn ervaring met mensen, passie voor leren en innovatie wil inzetten om bij te dragen aan technologie die de wereld mooier maakt.')</h2>
+        <h2>@yield('header-subtitle', 'Hi There! I build things with Laravel, and I like to collaborate with others.')</h2>
     </header>
 
 
